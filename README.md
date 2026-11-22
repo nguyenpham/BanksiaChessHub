@@ -6,11 +6,16 @@ Free data for chess players and chess programs, published as [releases](https://
 
 | Release | What | Files | Banksia GUI tab |
 |---|---|---|---|
-| [`felicity-chess5men-cut-2026-11-22`](https://github.com/nguyenpham/BanksiaChessHub/releases/tag/felicity-chess5men-cut-2026-11-22) | Felicity endgame tablebases, chess 3-5 men, distance to mate, one-side cut (145 endgames, 2.78 GB) | `felicity-chess-3-4men.zip` (12.8 MB), `felicity-chess-5men-part1.zip` (1.03 GB), `felicity-chess-5men-part2.zip` (1.73 GB), `SHA256SUMS.txt` | Felicity |
-| [`banksiamasters-db-2026-11-20`](https://github.com/nguyenpham/BanksiaChessHub/releases/tag/banksiamasters-db-2026-11-20) | Banksia Masters database: 8,008,264 games between human players (OCGDB / SQLite) | `banksiamasters.ocgdb.db3.7z` (855 MB) | Game databases |
-| [`banksiamasters-obs-2026-11-20`](https://github.com/nguyenpham/BanksiaChessHub/releases/tag/banksiamasters-obs-2026-11-20) | Banksia Masters opening book, OOBS | `banksiamasters.obs.db3.7z` (29.8 MB) | Opening books |
-| [`banksiamasters-polyglot-2026-11-20`](https://github.com/nguyenpham/BanksiaChessHub/releases/tag/banksiamasters-polyglot-2026-11-20) | Banksia Masters opening book, Polyglot | `banksiamasters.bin.7z` (7.8 MB) | Opening books |
+| [`felicity-chess5men-cut`](https://github.com/nguyenpham/BanksiaChessHub/releases/tag/felicity-chess5men-cut) | Felicity endgame tablebases, chess 3-5 men, distance to mate, one-side cut (145 endgames, 2.78 GB) | `felicity-chess-3-4men.zip` (12.8 MB), `felicity-chess-5men-part1.zip` (1.03 GB), `felicity-chess-5men-part2.zip` (1.73 GB), `SHA256SUMS.txt` | Felicity |
+| [`banksiamasters-db`](https://github.com/nguyenpham/BanksiaChessHub/releases/tag/banksiamasters-db) | Banksia Masters database: 8,008,264 games between human players (OCGDB / SQLite) | `banksiamasters.ocgdb.db3.7z` (855 MB) | Game databases |
+| [`banksiamasters-obs`](https://github.com/nguyenpham/BanksiaChessHub/releases/tag/banksiamasters-obs) | Banksia Masters opening book, OOBS | `banksiamasters.obs.db3.7z` (29.8 MB) | Opening books |
+| [`banksiamasters-polyglot`](https://github.com/nguyenpham/BanksiaChessHub/releases/tag/banksiamasters-polyglot) | Banksia Masters opening book, Polyglot | `banksiamasters.bin.7z` (7.8 MB) | Opening books |
 | `bsg-chess1`, `bsg-chess2`, `bsg-chess-reader`, `bsg-xq-reader` | Banksia GUI's / MoonRiver's own neural networks (AI assistant, board readers) | | Neural networks |
+
+**Release names** (owner, 2026-11-22): tags, titles and file names carry **no dates**
+(`banksiamasters-db`, not `banksiamasters-db-2026-11-20`). A new version replaces the files of the same
+release, or takes a version word (`-v2`) when old programs must keep the old files. The four dated tags
+of 2026-11-20/22 were renamed that day; their old download links no longer answer.
 
 ## Felicity tablebases, chess 3-5 men (2026-11-22)
 

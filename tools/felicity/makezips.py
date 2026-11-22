@@ -7,7 +7,7 @@ Run on 2026-11-22 with SRC_A4K = D:/share-phampc/chess/felicity/fegtb-cut-repack
 draft release cut-w-1 of nguyenpham/FelicityEGTB-chess5men: all 145 "MISMATCH" lines are expected, that list
 is from before the files were checksum-stamped (2026-10-30, FelicityEGTBBK docs/Checksum.md §4); `cmp -l`
 showed only header bytes 112-127 differ, and `fegtbsum verify` on the unpacked zips found 145 good
-(fegtbsum-verify-2026-11-22.txt). The zips are stored (no compression): 7-Zip -mx=9 saved 0.23 %.
+(fegtbsum-verify.txt). The zips are stored (no compression): 7-Zip -mx=9 saved 0.23 %.
 """
 import hashlib, os, sys, zipfile
 
